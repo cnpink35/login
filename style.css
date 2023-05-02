@@ -17,17 +17,38 @@ h1 {
 
 .login_wrap{
 	box-sizing: border-box;
-	padding: 1px;
-	width: 300px;
-	background: light grey;
+	padding: 20px;
+	width: 500px;
+	/*background: light grey;*/
+	color: #00ff00;
 }
 
 .id_pw_wrap{
+	padding: 10px;
+	/*display: block;
+	box-sizing: border-box;*/
+}
+
+label{
 	display: block;
-	box-sizing: border-box;
+}
+.input_row{
+	width:261px; 
+	height:45px
 }
 
 .btn_login_wrap{
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
+}
+
+.btn_login{
+	border: 2px solid #000;
+  	font-weight: 20;
+  	background: white;
+  	cursor: pointer;
+  	display: inline-block;
+}
+
+.btn_text{
+	color: black;
 }
