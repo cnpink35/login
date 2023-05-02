@@ -15,8 +15,19 @@ h1 {
  border-bottom: 3px solid black;
 }
 
-.panel_wrap{
+.login_wrap{
 	box-sizing: border-box;
-	padding: 50px;
-	background-color: light grey;
+	padding: 1px;
+	width: 300px;
+	background: light grey;
+}
+
+.id_pw_wrap{
+	display: block;
+	box-sizing: border-box;
+}
+
+.btn_login_wrap{
+	margin-left: auto;
+	margin-right: auto;
 }
