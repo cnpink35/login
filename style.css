@@ -17,38 +17,41 @@ h1 {
 
 .login_wrap{
 	box-sizing: border-box;
-	padding: 20px;
+	border: 2px solid #00ff00;
 	width: 500px;
-	/*background: light grey;*/
-	color: #00ff00;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .id_pw_wrap{
+	box-sizing: border-box;
 	padding: 10px;
-	/*display: block;
-	box-sizing: border-box;*/
+	margin-right: auto;
 }
 
 label{
 	display: block;
+	color: black;
 }
-.input_row{
-	width:261px; 
-	height:45px
+.input_text{
+	width:400px; 
+	height:25px;
 }
 
 .btn_login_wrap{
-	text-align: center;
+	margin-right: auto;
+	padding: 13px;
 }
 
 .btn_login{
 	border: 2px solid #000;
-  	font-weight: 20;
-  	background: white;
+  	width: 400px;
+  	background: #00ff00;
   	cursor: pointer;
   	display: inline-block;
 }
 
 .btn_text{
-	color: black;
+	color: white;
 }
