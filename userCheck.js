@@ -6,8 +6,8 @@
 
 "use strict" //for protection and better debugging
  
-const express = require('express');
-const app = express();
+//const express = require('express');
+//const app = express();
 	
 //var btn = document.getElementsByClassName(".btn_login");
 
@@ -26,10 +26,10 @@ function loginCheck(){
 		const idx = user.id.indexOf(id);
 		if(pw===user.password[idx]){
 			alert("login success!");
-			
-			$(".id_pw_wrap").style.display = "none";
-			$(".login_success").style.display = "block";
-			return;
+			const loginForm = document.querySelector(".login");
+      		const successMessage = document.createElement("div");
+      		successMessage.textContent = "Login success!";
+      		loginForm.parentNode.replaceChild(successMessage, loginForm);
 		}
 	} else{
 		alert("id or pw is wrong!");
