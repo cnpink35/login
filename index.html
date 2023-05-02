@@ -1,0 +1,86 @@
+<!-- 
+this page is to login the website
+but doesn't check at the DB
+also it doesn't move the page.
+made by daeun yoo on 2023.05.02
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+<title>login|유다은</title>
+</head>
+<body>
+<div class="login">
+<h1>Login</h1>
+<div class="login_wrap">
+
+                    <ul class="panel_wrap">
+                        <li class="panel_item" style="display: block;">
+                            <div class="panel_inner" role="tabpanel" aria-controls="loinid">
+                                <div class="id_pw_wrap">
+                                    <div class="input_row" id="id_line">
+                                        <div class="icon_cell" id="id_cell">
+                                            <span class="icon_id">
+                                                <span class="blind">아이디</span>
+                                            </span>
+                                        </div>
+                                        <input type="text" id="id" name="id" placeholder="아이디" title="아이디"
+                                               class="input_text" maxlength="41"
+                                               value="">
+                                        <span role="button" class="btn_delete" id="id_clear" style="display: none;">
+                                            <span class="icon_delete">
+												<span class="blind">삭제</span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="input_row" id="pw_line">
+                                        <div class="icon_cell" id="pw_cell">
+                                            <span class="icon_pw">
+                                                <span class="blind">비밀번호</span>
+                                            </span>
+                                        </div>
+                                        <input type="password" id="pw" name="pw" placeholder="비밀번호" title="비밀번호"
+                                               class="input_text" maxlength="16">
+                                        <span role="button" class="btn_delete" id="pw_clear" style="display: none;">
+                                            <span class="icon_delete">
+                                                <span class="blind">삭제</span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="login_error_wrap" id="err_empty_id" style="display: none;">
+                                    <div class="error_message">
+                                        <strong>아이디</strong>를 입력해 주세요.
+                                    </div>
+                                </div>
+
+                                <div class="login_error_wrap" id="err_empty_pw" style="display: none;">
+                                    <div class="error_message">
+                                        <strong>비밀번호</strong>를 입력해 주세요.
+                                    </div>
+                                </div>
+                                <div class="login_error_wrap" id="err_common"  style="display:none;">
+                                    <div class="error_message"
+                                         style="width:90%">
+                                        
+                                    </div>
+                                </div>
+                                <div class="btn_login_wrap">
+
+                                    <button type="submit" class="btn_login" id="log.login">
+                                        <span class="btn_text">로그인</span>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
+            </div>
+</body>
+</html>

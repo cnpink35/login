@@ -1,0 +1,21 @@
+/*
+style of login page
+created by daeun yoo on 2023.05.02
+*/
+
+@charset "UTF-8";
+
+.login{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+ border-bottom: 3px solid black;
+}
+
+.panel_wrap{
+	box-sizing: border-box;
+	background-color: light grey;
+}
