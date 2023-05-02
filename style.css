@@ -17,5 +17,6 @@ h1 {
 
 .panel_wrap{
 	box-sizing: border-box;
+	padding: 50px;
 	background-color: light grey;
 }
